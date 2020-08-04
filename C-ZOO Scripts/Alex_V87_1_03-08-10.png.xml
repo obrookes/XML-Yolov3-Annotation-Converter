@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ObjectRecognitionResults>
+    <meta>
+        <timebase num="1" denum="25" />
+        <framesize width="1920" height="1080" />
+    </meta>
+    <frames>
+        <frame timestamp="0">
+            <objects>
+                <object uid="0" type="FACE">
+                    <region>
+                        <point posX="0.527865" posY="0.228241" orderIdx="0" posHint="topleft" />
+                        <point posX="0.710677" posY="0.228241" orderIdx="1" />
+                        <point posX="0.710677" posY="0.708796" orderIdx="2" />
+                        <point posX="0.527865" posY="0.708796" orderIdx="3" />
+                    </region>
+                    <marker posX="0.64974" posY="0.476389" orderIdx="0" type="RIGHT_EYE" />
+                    <marker posX="0.647135" posY="0.665278" orderIdx="0" type="MOUTH_CENTER" />
+                </object>
+            </objects>
+            <mappings>
+                <mapping object_ref="0" label_ref="0" confidence="1" />
+            </mappings>
+        </frame>
+    </frames>
+    <labels>
+        <label uid="0" name="Alex" />
+    </labels>
+</ObjectRecognitionResults>

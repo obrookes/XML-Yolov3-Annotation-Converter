@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ObjectRecognitionResults>
+    <meta>
+        <timebase num="1" denum="25" />
+        <framesize width="1920" height="1080" />
+    </meta>
+    <frames>
+        <frame timestamp="0">
+            <objects>
+                <object uid="0" type="FACE">
+                    <region>
+                        <point posX="0.436719" posY="0.475463" orderIdx="0" posHint="topleft" />
+                        <point posX="0.570573" posY="0.475463" orderIdx="1" />
+                        <point posX="0.570573" posY="0.681019" orderIdx="2" />
+                        <point posX="0.436719" posY="0.681019" orderIdx="3" />
+                    </region>
+                    <marker posX="0.488281" posY="0.586574" orderIdx="0" type="LEFT_EYE" />
+                    <marker posX="0.489844" posY="0.640278" orderIdx="0" type="RIGHT_EYE" />
+                    <marker posX="0.53776" posY="0.616204" orderIdx="0" type="MOUTH_CENTER" />
+                </object>
+                <object uid="1" type="FACE">
+                    <region>
+                        <point posX="0.817448" posY="0.106019" orderIdx="0" posHint="topleft" />
+                        <point posX="0.934635" posY="0.106019" orderIdx="1" />
+                        <point posX="0.934635" posY="0.360648" orderIdx="2" />
+                        <point posX="0.817448" posY="0.360648" orderIdx="3" />
+                    </region>
+                    <marker posX="0.88099" posY="0.203241" orderIdx="0" type="LEFT_EYE" />
+                    <marker posX="0.848698" posY="0.196759" orderIdx="0" type="RIGHT_EYE" />
+                    <marker posX="0.854427" posY="0.314352" orderIdx="0" type="MOUTH_CENTER" />
+                </object>
+            </objects>
+            <mappings>
+                <mapping object_ref="0" label_ref="0" confidence="1" />
+                <mapping object_ref="1" label_ref="1" confidence="1" />
+            </mappings>
+        </frame>
+    </frames>
+    <labels>
+        <label uid="0" name="Gertrudia" />
+        <label uid="1" name="Fifi" />
+    </labels>
+</ObjectRecognitionResults>
